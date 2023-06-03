@@ -1,45 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0--",
-      "name": "Кухня-Гостиная",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7154307584286919,
-          "pitch": 0.43855779946871465,
-          "rotation": 0,
-          "target": "1---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1---",
+      "id": "0---",
       "name": "Прихожая-Кухня-Гостиная",
       "levels": [
         {
@@ -68,26 +30,26 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.08456756247557706,
-          "pitch": 0.40733398939526033,
+          "yaw": 0.11192831796409486,
+          "pitch": 0.3886562447595505,
           "rotation": 0,
-          "target": "0--"
+          "target": "1--"
         },
         {
-          "yaw": 2.741485517509884,
-          "pitch": 0.1837541757327088,
+          "yaw": -2.183806956410571,
+          "pitch": 0.0727994111233734,
           "rotation": 0,
-          "target": "2--1-_"
+          "target": "2-_"
         },
         {
-          "yaw": -2.1794486750138056,
-          "pitch": 0.30193172755059194,
+          "yaw": 2.744831368621294,
+          "pitch": 0.10791391656253246,
           "rotation": 0,
-          "target": "4-_"
+          "target": "4--1-_"
         },
         {
-          "yaw": 3.065565970298832,
-          "pitch": -0.08640602558870114,
+          "yaw": 3.0794016172032714,
+          "pitch": -0.23571373887400604,
           "rotation": 0,
           "target": "5--2-_"
         }
@@ -95,8 +57,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2--1-_",
-      "name": "Санузел 1 Этажа_Панорама",
+      "id": "1--",
+      "name": "Кухня-Гостиная",
       "levels": [
         {
           "tileSize": 256,
@@ -124,10 +86,54 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.44984577100929,
-          "pitch": 0.18055612811478383,
+          "yaw": 1.678901623107146,
+          "pitch": 0.13524439066839555,
           "rotation": 0,
-          "target": "1---"
+          "target": "0---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-_",
+      "name": "Прихожая_Панорама",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6820665443681797,
+          "pitch": 0.05768441361805543,
+          "rotation": 0,
+          "target": "3-_"
+        },
+        {
+          "yaw": -0.36142206164835855,
+          "pitch": 0.21725114471377438,
+          "rotation": 0,
+          "target": "0---"
         }
       ],
       "infoHotspots": []
@@ -162,17 +168,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.5233324015370933,
-          "pitch": 0.26089392934752986,
+          "yaw": 1.510186363682088,
+          "pitch": 0.171484975280773,
           "rotation": 0,
-          "target": "4-_"
+          "target": "2-_"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-_",
-      "name": "Прихожая_Панорама",
+      "id": "4--1-_",
+      "name": "Санузел 1 Этажа_Панорама",
       "levels": [
         {
           "tileSize": 256,
@@ -200,16 +206,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.661737297421464,
-          "pitch": 0.1220357441918214,
+          "yaw": 2.4323988501477247,
+          "pitch": 0.1456652844187829,
           "rotation": 0,
-          "target": "3-_"
-        },
-        {
-          "yaw": -0.42587125197806763,
-          "pitch": 0.4006380911739562,
-          "rotation": 0,
-          "target": "1---"
+          "target": "0---"
         }
       ],
       "infoHotspots": []
@@ -244,16 +244,34 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.14270554379039,
-          "pitch": 0.1581199312481587,
+          "yaw": 2.1373509272104654,
+          "pitch": 0.11761550838200385,
           "rotation": 0,
           "target": "6--2-_"
         },
         {
-          "yaw": -3.126474279854216,
-          "pitch": 0.7649876337665074,
+          "yaw": -1.1510608465199734,
+          "pitch": 0.10592456201864309,
           "rotation": 0,
-          "target": "1---"
+          "target": "7--"
+        },
+        {
+          "yaw": 0.06433693043999256,
+          "pitch": 0.06425469374769932,
+          "rotation": 0,
+          "target": "9-_"
+        },
+        {
+          "yaw": -0.5615686829545083,
+          "pitch": 0.061617901531157315,
+          "rotation": 0,
+          "target": "8-_"
+        },
+        {
+          "yaw": 3.1130942397371477,
+          "pitch": 0.8092823489424621,
+          "rotation": 0,
+          "target": "0---"
         }
       ],
       "infoHotspots": []
@@ -288,8 +306,122 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.6778458209352447,
-          "pitch": -0.009770748368490345,
+          "yaw": 2.6350256589023697,
+          "pitch": -0.14790289940504664,
+          "rotation": 0,
+          "target": "5--2-_"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7--",
+      "name": "Мастер-Спальня",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.4415479938288946,
+          "pitch": 0.1982072475166312,
+          "rotation": 0,
+          "target": "5--2-_"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-_",
+      "name": "Детская_Левая",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.333525430190347,
+          "pitch": 0.1331115189564418,
+          "rotation": 0,
+          "target": "5--2-_"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-_",
+      "name": "Детская_Правая",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.265778487789161,
+          "pitch": 0.1520450277491836,
           "rotation": 0,
           "target": "5--2-_"
         }
